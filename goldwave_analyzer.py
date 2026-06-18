@@ -7,8 +7,8 @@ import numpy as np
 
 st.set_page_config(page_title="GoldWave EA Analyzer", layout="wide", page_icon="📊")
 
-st.title("📊 골드웨이브(GoldWave) EA 실시간 진단 대시보드")
-st.caption("아이노우커머스 MT5 거래 내역 기반 정밀 성과 분석기")
+st.title("📊 골드웨이브(GOLDWAVE) EA 실시간 진단 대시보드")
+st.caption("아이노커머스 MT5 거래 내역 기반 정밀 성과 분석기")
 
 # 1. 파일 업로드 섹션
 uploaded_file = st.file_drop_channel = st.file_uploader("MT5에서 내보낸 엑셀 파일(.xlsx)을 업로드하세요.", type=["xlsx"])
